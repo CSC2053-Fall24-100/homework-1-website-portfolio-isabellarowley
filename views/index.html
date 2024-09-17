@@ -10,27 +10,19 @@ T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="a
 
 <!-- Navigation Bar --> 
 <body class="bg-success text-white text-center"> 
-	<nav class="navbar navbar-expand-lg navbar-light bg-light">
-		<div class="collapse navbar-collapse" id="navbarNav">
-			<ul class="navbar-nav">
-				 <li class="nav-item">
-				 	<a class="nav-link" href="index.html">Home</a>
-				 </li>
-				  <li class="nav-item">
-				  	<a class="nav-link" href="schedule.html">Fall 2024 Schedule</a>
-				  	<li class="nav-item">
-				  	<a class="nav-link" href="hobbies.html">Hobbies</a>
-				  	 </li>
-				  	  </ul>
-				  	</div>
-				  	</nav>
+	<div id="navbar-container"></div>
+
+	<script src="../resources/js/navbar.js"></script>
+<script>
+loadNavbar(); // Call the function to load the navbar
+</script>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-
 C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7 RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"
 ></script>
 
 <!-- Short Bio -->
-<h1>Isabella Rowley - Class of 2025</h1>
+<h1 id="Heading">Isabella Rowley - Class of 2025</h1>
 <p>Hi! My name is Isabella Rowley. I am a senior at Villanova University and I am from DelCo, PA. I am majoring in Psychology and minoring in Computer Science. Welcome to my Webpage where you will find out a little more about me. Enjoy!</p>
 
 <!-- Picture of me -->
@@ -42,6 +34,12 @@ alt="Profile Pic" width="220px"
 <!-- Link to CSC Dept. -->
 <a href="https://www1.villanova.edu/university/liberal-arts-sciences/programs/computing- sciences.html">Link to Villanova Computing Sciences Department </a>
 
+<!-- Simple Form HW #2 Challange -->
+	<!--I used the following reference on W3 Schools to complete this problem:
+ 	Link 1: https://www.w3schools.com/tags/att_input_name.asp --> 
+<input name="text" id="Input"/>
+<button id="Name">Submit</button>
+<script src="../resources/js/nameButton.js"></script>
 
 </body>
 </html>
